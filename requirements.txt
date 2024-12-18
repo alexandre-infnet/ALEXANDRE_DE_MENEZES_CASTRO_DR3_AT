@@ -1,0 +1,9 @@
+StatsBombPy==1.14.0
+google-generativeai==0.8.3
+fastapi==0.115.6
+uvicorn==0.34.0
+pandas==2.2.3
+streamlit==1.41.1
+langchain-community==0.3.12
+langchain==0.3.12
+openai==1.57.4
