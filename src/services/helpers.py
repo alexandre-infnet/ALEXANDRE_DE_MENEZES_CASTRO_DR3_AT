@@ -4,6 +4,7 @@ import google.generativeai as genai
 from models import PlayerProfileResponse, PlayerStatistics
 
 
+genai.configure(api_key="AIzaSyCOts1mwmF2GIF_FUiUYuujoDJe4DoTBsU")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 
