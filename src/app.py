@@ -51,6 +51,9 @@ def get_players_statistics(match_id):
     statistics_df = pd.DataFrame(statistics_data)
     st.dataframe(statistics_df)
 
+os.environ["OPENAI_API_KEY"] = (
+    "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"
+)
 
 API_BASE_URL = "http://127.0.0.1:8000"
 
