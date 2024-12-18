@@ -1,3 +1,13 @@
+Como rodar:
+Instale as dependencias do requirements.txt
+
+Rode a API:
+Entre no diretório src/services
+Rode o comando: uvicorn routes:app --reload
+
+Rode o Streamlit:
+Rode o comando: streamlit run src/app.py
+
 Este projeto é uma aplicação Streamlit para análise de partidas de futebol. Ele utiliza a biblioteca statsbombpy para acessar dados detalhados de eventos de partidas, e LangChain para a integração com modelos de linguagem para consultas e comparações avançadas. A interface permite:
 	•	Resumir partidas específicas.
 	•	Obter estatísticas detalhadas de jogadores.
